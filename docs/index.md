@@ -2,7 +2,7 @@
 home: true
 heroImage: /img/logo.svg
 heroText: Forest
-tagline: 高层的、极简的声明式HTTP调用API框架
+tagline: 高层的、极简的声明式HTTP客户端框架
 actionText: 开始使用 →
 actionLink: /pages/1.5.x/install_guide/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量

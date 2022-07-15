@@ -1,7 +1,7 @@
 module.exports = [
     { text: '首页', link: '/' },
     { text: '文档', link: '/pages/1.5.x/intro/', items: [
-            { text: '1.5.x', link: '/pages/1.5.x/intro/'}
+            { text: 'v1.5.x', link: '/pages/1.5.x/intro/'}
         ]
     },
     { text: '💖支持', link: '/pages/donate/' },

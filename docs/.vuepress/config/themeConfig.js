@@ -57,12 +57,12 @@ module.exports = {
             {
                 iconClass: 'icon-gitee',
                 title: 'Gitee',
-                link: 'https://gitee.com/dromara/liteFlow'
+                link: 'https://gitee.com/dromara/forest'
             },
             {
                 iconClass: 'icon-github',
                 title: 'GitHub',
-                link: 'https://github.com/dromara/liteflow'
+                link: 'https://github.com/dromara/forest'
             }
         ]
     },

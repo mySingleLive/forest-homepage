@@ -74,6 +74,22 @@ postList: none
 </dependency>
 ```
 </code-block>
+<code-block title="Spring环境">
+
+```xml
+<dependency>
+    <groupId>com.dtflys.forest</groupId>
+    <artifactId>forest-core</artifactId>
+    <version>1.5.25</version>
+</dependency>
+
+<dependency>
+  <groupId>com.dtflys.forest</groupId>
+  <artifactId>forest-spring</artifactId>
+  <version>1.5.25</version>
+</dependency>
+```
+</code-block>
 <code-block title="原生Java环境">
 
 ```xml

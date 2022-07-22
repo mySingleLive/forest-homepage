@@ -48,7 +48,7 @@ postList: none
 * **自动 JSON 转换**: 内置 Jackson、Fastjson、Gson 三种JSON转换器
 * **自动 XML 转换**: 内置 JAXB 形式的 XML 转换器
 * **自动 Protobuf 转换**: 内置 Protobuf 格式数据转换器
-* **多种验签方式**：Basic Auth、 OAuth2、以及通过自定义拦截器或注解来验签
+* **多种加签方式**：Basic Auth、 OAuth2、以及通过自定义拦截器或注解来加签
 * **Spring/Spring boot**: 支持Spring和Springboot集成
 * **上传下载**: 支持多种上传和下载的方式，并能监听数据传输进度
 * **模板表达式**: 支持灵活的模板表达式，来配合申明式注解使用

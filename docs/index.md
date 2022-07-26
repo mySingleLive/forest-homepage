@@ -185,6 +185,11 @@ JDK版本: `8+`
         <img :src="$withBase('/img/link/ee-logo.png')" class="no-zoom" style="height:40px;margin: 10px;">
     </a>
 </span>
+<span style="width: 150px;text-align: left">
+    <a href="https://gitee.com/dromara/hertzbeat" target="_blank">
+        <img :src="$withBase('/img/link/hertzbeat-logo.svg')" class="no-zoom" style="height:40px;margin: 10px;">
+    </a>
+</span>
 
 <br><br>
 

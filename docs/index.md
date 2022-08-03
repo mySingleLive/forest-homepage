@@ -40,23 +40,32 @@ postList: none
 
 ## 🎉 特性
 
-* **声明式接口**: 通过定义地接口+注解的方式封装Http请求, 实现了业务逻辑与Http协议之间的解耦
-* **多种底层HTTP框架**: 以Httpclient和OkHttp为后端框架（可根据需要二选一）
-* **不依赖中间件**: 因为针对第三方接口，所以不需要依赖Spring Cloud和任何注册中心
-* **支持所有请求方法**：GET, HEAD, OPTIONS, TRACE, POST, DELETE, PUT, PATCH
-* **约定大于配置**: 只要添加好依赖，基本上可以什么都不配置，就能马上运行
-* **自动 JSON 转换**: 内置 Jackson、Fastjson、Gson 三种JSON转换器
-* **自动 XML 转换**: 内置 JAXB 形式的 XML 转换器
-* **自动 Protobuf 转换**: 内置 Protobuf 格式数据转换器
-* **多种加签方式**：Basic Auth、 OAuth2、以及通过自定义拦截器或注解来加签
-* **Spring/Spring boot**: 支持Spring和Springboot集成
-* **上传下载**: 支持多种上传和下载的方式，并能监听数据传输进度
-* **模板表达式**: 支持灵活的模板表达式，来配合申明式注解使用
-* **拦截器**: 支持拦截器处理请求的各个生命周期
-* **自定义注解**: 支持自定义注解，来极大增强扩展能力
-* **回调函数**: 支持通过OnSuccess和OnError接口参数实现请求结果的回调
-* **异步请求**: 支持方便的异步请求调用方式
-* **编程式接口**: 除声明式接口外，也支持直观的编程式接口
+<div class="row">
+    <div class="col" style="margin: 1rem 4rem 0rem 0rem; width: 28rem;">
+        <div class="introContent">
+            <ul>
+                <li>支持 <b>声明式接口</b>，方便与业务代码解耦</li>
+                <li>支持 <b>编程式接口</b>，方便快速访问请求</li>
+                <li>支持 <b>OkHttp</b> 和 <b>Httpclient</b> 两种底层框架</li>
+                <li>不依赖中间件</li>
+                <li>支持 <b>GET</b>、<b>POST</b>、<b>PUT</b> 等所有请求方法</li>
+                <li>约定大于配置</li>
+                <li>自动 <b>JSON</b>、<b>XML</b>、<b>Protobuf</b> 转换</li>
+                <li>支持 <b>自定义转换器</b></li>
+                <li>多种加签方式</li>
+                <li>支持 <b>Spring</b> 和 <b>Springboot</b> 集成</li>
+                <li>支持 <b>上传下载</b></li>
+                <li>支持 <b>模板表达式</b></li>
+                <li>支持 <b>拦截器</b></li>
+                <li>支持 <b>自定义注解</b></li>
+                <li>支持 <b>异步请求</b></li>
+            </ul>
+        </div>
+    </div>
+    <div style="display: flex; flex-direction: column">
+        <img class="img_margin img_shadow img_bg" src="/img/forest_request_flow.svg" alt="converter" />
+    </div>
+</div>
 
 <br><br>
 
@@ -127,6 +136,8 @@ JDK版本: `8+`
 </a>
 
 <br/><br/>
+
+
 
 ## 🥤 开源平台社区
 
@@ -286,4 +297,24 @@ JDK版本: `8+`
     padding-top: 5px;
     display: block;
   }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+  .introContent {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .introContent li {
+    list-style-type: none;
+    background: url("/img/guigou_green.svg") no-repeat 0rem 0.3rem;
+    background-size: 1rem 1rem;
+    text-indent: 2em;
+    margin: 5px 0rem 0rem 0rem;
+  }
+
 </style>

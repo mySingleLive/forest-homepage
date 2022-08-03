@@ -41,7 +41,7 @@ postList: none
 ## 🎉 特性
 
 <div class="row">
-    <div class="col" style="margin: 1rem 4rem 0rem 0rem; width: 28rem;">
+    <div class="col" style="margin: 2.5rem 2.5rem 0rem 0rem; width: 28.5rem;">
         <div class="introContent">
             <ul>
                 <li>支持 <b>声明式接口</b>，方便与业务代码解耦</li>
@@ -62,8 +62,8 @@ postList: none
             </ul>
         </div>
     </div>
-    <div style="display: flex; flex-direction: column">
-        <img class="img_margin img_shadow img_bg" src="/img/forest_request_flow.svg" alt="converter" />
+    <div style="display: flex; flex-direction: column; margin: 0px 1.7rem 0px 0px">
+        <img class="img_margin img_shadow img_bg" style="padding: 1rem;" src="/img/forest_request_flow.svg" alt="converter" />
     </div>
 </div>
 

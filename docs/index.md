@@ -46,7 +46,7 @@ postList: none
             <ul>
                 <li>支持 <b>声明式接口</b>，方便与业务代码解耦</li>
                 <li>支持 <b>编程式接口</b>，方便快速访问请求</li>
-                <li>支持 <b>OkHttp</b> 和 <b>Httpclient</b> 两种底层框架</li>
+                <li>支持 <b>OkHttp</b>、 <b>Httpclient</b> 两种底层框架</li>
                 <li>不依赖中间件</li>
                 <li>支持 <b>GET</b>、<b>POST</b>、<b>PUT</b> 等所有请求方法</li>
                 <li>约定大于配置</li>

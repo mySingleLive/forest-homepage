@@ -22,23 +22,27 @@
 module.exports = {
   // 万维广告
   pageT: `
-  <div class="wwads-cn wwads-horizontal page-ad" data-id="128" style="width:100%;max-height:80px;min-height:auto;"></div>
-  <style>
-    .page-ad img{
-      width:80px!important;
-    }
-    .wwads-horizontal .wwads-content{
-      display: flex;
-      align-items: center;
-    }
-    .wwads-horizontal .wwads-text, .wwads-content .wwads-text{
-      line-height:1;
-      flex: 1;
-      height: 100%;
-      display: flex;
-      align-items: center;
-    }
-    .wwads-horizontal .wwads-poweredby, .wwads-vertical .wwads-poweredby{display: none;!important;}
+    <div class="wwads-cn wwads-horizontal page-wwads" data-id="128"></div>
+    <style>
+      .page-wwads{
+        width:100%!important;
+        min-height: 0;
+        margin: 0;
+      }
+      .page-wwads .wwads-img img{
+        width:80px!important;
+      }
+      .page-wwads .wwads-poweredby{
+        width: 40px;
+        position: absolute;
+        right: 25px;
+        bottom: 3px;
+      }
+      .wwads-content .wwads-text, .page-wwads .wwads-text{
+        height: 100%;
+        padding-top: 5px;
+        display: block;
+      }
   </style>
   `,
   // windowRB: `

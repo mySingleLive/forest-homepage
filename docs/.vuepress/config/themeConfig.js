@@ -14,7 +14,7 @@ module.exports = {
     editLinks: true, // 编辑链接
     editLinkText: '帮助我们改善此文档',
 
-    version: '1.5.25', // Forest版本号
+    version: '1.5.26', // Forest版本号
 
     // 以下配置是Vdoing主题改动的和新增的配置
     sidebar: { mode: 'structuring', collapsable: false }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页

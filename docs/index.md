@@ -64,7 +64,7 @@ postList: none
         </div>
     </div>
     <div style="display: flex; flex-direction: column; margin: 0px 1.7rem 0px 0px">
-        <img class="img_margin img_shadow img_bg" style="padding: 1rem;" src="/img/forest_request_flow.svg" alt="converter" />
+        <img class="img_margin img_shadow img_bg" style="padding: 1rem;" src="/img/forest_request_flow.svg" alt="request flow" />
     </div>
 </div>
 
@@ -138,7 +138,13 @@ JDK版本: `8+`
 
 <br/><br/>
 
+## 👨‍🎓 知识星球
 
+<span class="row" style="height: 180px">
+    <img class="img_shadow2 col" style="height: 180px;" :src="$withBase('/img/dromara-zsxq-h.png')" alt="zsxq" />
+</span>
+
+<br/><br/>
 
 ## 🥤 开源平台社区
 

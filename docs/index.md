@@ -200,8 +200,8 @@ JDK版本: `8+`
     </a>
 </span>
 <span style="width: 150px;text-align: left">
-    <a href="https://gitee.com/dromara/cubic" target="_blank">
-        <img :src="$withBase('/img/dromara/cubic-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+    <a href="https://gitee.com/dromara/hertzbeat" target="_blank">
+        <img :src="$withBase('/img/dromara/hertzbeat-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
     </a>
 </span>
 <span style="width: 150px;text-align: left">
@@ -230,8 +230,8 @@ JDK版本: `8+`
     </a>
 </span>
 <span style="width: 150px;text-align: left">
-    <a href="https://gitee.com/dromara/hertzbeat" target="_blank">
-        <img :src="$withBase('/img/dromara/hertzbeat-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+    <a href="https://gitee.com/dromara/fast-request" target="_blank">
+        <img :src="$withBase('/img/dromara/fastrequest-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
     </a>
 </span>
 <span style="width: 150px;text-align: left">
@@ -245,6 +245,12 @@ JDK版本: `8+`
     </a>
 </span>
 <span style="width: 150px;text-align: left">
+    <a href="https://gitee.com/dromara/cubic" target="_blank">
+        <img :src="$withBase('/img/dromara/cubic-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+    </a>
+</span>
+
+<span style="width: 150px;text-align: left">
     <a href="https://gitee.com/dromara/koalas-rpc" target="_blank">
         <img :src="$withBase('/img/dromara/koalas-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
     </a>
@@ -257,11 +263,6 @@ JDK版本: `8+`
 <span style="width: 150px;text-align: left">
     <a href="https://gitee.com/dromara/gobrs-async" target="_blank">
         <img :src="$withBase('/img/dromara/gobrsasync-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
-    </a>
-</span>
-<span style="width: 150px;text-align: left">
-    <a href="https://gitee.com/dromara/fast-request" target="_blank">
-        <img :src="$withBase('/img/dromara/fastrequest-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
     </a>
 </span>
 <span style="width: 150px;text-align: left">

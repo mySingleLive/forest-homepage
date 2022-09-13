@@ -146,7 +146,7 @@ JDK版本: `8+`
 
 <br/><br/>
 
-## 🥤 开源平台社区
+## 🥤 开源社区平台
 
 <span class="link">
     <a href="https://gitee.com" target="_blank">
@@ -163,6 +163,7 @@ JDK版本: `8+`
 <br><br>
 
 ## 🍻 dromara 组织项目
+<div class="row">
 <span class="link">
     <a href="https://gitee.com/dromara/forest" target="_blank">
         <img :src="$withBase('/img/dromara/forest-logo.png')" class="no-zoom">
@@ -203,6 +204,8 @@ JDK版本: `8+`
         <img :src="$withBase('/img/dromara/hertzbeat-logo.png')" class="no-zoom">
     </a>
 </span>
+</div>
+<div class="row">
 <span class="link">
     <a href="https://gitee.com/dromara/liteFlow" target="_blank">
         <img :src="$withBase('/img/dromara/liteflow-logo.png')" class="no-zoom">
@@ -243,6 +246,8 @@ JDK版本: `8+`
         <img :src="$withBase('/img/dromara/mendmix-logo.png')" class="no-zoom">
     </a>
 </span>
+</div>
+<div class="row">
 <span class="link">
     <a href="https://gitee.com/dromara/cubic" target="_blank">
         <img :src="$withBase('/img/dromara/cubic-logo.png')" class="no-zoom">
@@ -279,7 +284,12 @@ JDK版本: `8+`
         <img :src="$withBase('/img/dromara/dantecloud-logo.png')" class="no-zoom">
     </a>
 </span>
-
+<span class="link">
+    <a href="https://gitee.com/dromara/go-view" target="_blank">
+        <img :src="$withBase('/img/dromara/goview-logo.png')" class="no-zoom">
+    </a>
+</span>
+</div>
 <br><br>
 
 
@@ -307,13 +317,13 @@ JDK版本: `8+`
     font-size: 14px;
   }
   .link {
-    width: 8em;
-    text-align: center;
+    width: 8.6em;
+    text-align: left;
   }
   .link img {
     height:1.5em;
     max-width:180px;
-    margin: 10px;
+    margin: 14px;
   }
   .page-wwads{
     width:100%!important;

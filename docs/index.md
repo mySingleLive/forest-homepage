@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/forest_logo.png
+heroImage: /img/Forest_Logo_Anim.gif
 heroText: Forest
 tagline: 声明式HTTP客户端框架，减轻您的开发负担
 actionText: 开始使用 →

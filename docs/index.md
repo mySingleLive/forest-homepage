@@ -20,6 +20,30 @@ features:
 postList: none
 ---
 
+<br/><br/>
+
+## 🍦 特别赞助
+
+<br/>
+
+::: cardList
+```yaml
+- name: MaxKey
+  desc: 开箱即用的数据库建模、产品版本管理软件
+  avatar: /img/sponsor/max-key.png
+  link: https://maxkey.top/
+  bgColor: '#9ed3e5' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#1f2328' # 可选，默认var(--textColor)
+- name: 成为赞助商
+  desc: 期待您的大力支持
+  avatar: /img/sponsor/sponsor.svg
+  link: /pages/donate/
+  bgColor: '#e6e6e6' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#1f2328' # 可选，默认var(--textColor)
+```
+:::
+<br/>
+
 
 <style>
 .become-sponsor{
@@ -33,10 +57,6 @@ postList: none
 </style>
 
 <br>
-
-<p style="text-align: center">
-  <a class="become-sponsor" href="/pages/donate/">支持这个项目</a>
-</p>
 
 ## 🎉 特性
 

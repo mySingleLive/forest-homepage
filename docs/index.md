@@ -316,7 +316,7 @@ JDK版本: `8+`
 ## 🍹 友情链接
 
 <span class="link">
-    <a href="https://www.ipidea.net/" target="_blank">
+    <a href="http://www.ipidea.net/?utm-source=Forest&utm-keyword=?Forest" target="_blank">
         <img :src="$withBase('/img/link/ipidea.png')" class="no-zoom">
     </a>
 </span>
@@ -333,11 +333,8 @@ JDK版本: `8+`
 <!-- AD -->
 <div class="wwads-cn wwads-horizontal page-wwads" data-id="128"></div>
 <style>
-  html {
-    font-size: 14px;
-  }
   .link {
-    width: 8.6em;
+    width: 8.4em;
     text-align: left;
   }
   .link img {

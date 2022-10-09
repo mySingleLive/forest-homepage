@@ -8,6 +8,10 @@ module.exports = [
     { text: '🛫 更新记录', link: '/pages/releases/' },
     { text: '🧢 关于作者', link: '/pages/about_author/' },
     { text: '⚒️ 参与贡献', link: '/pages/contribute/' },
+    { text: '推荐', items: [
+            { text: 'MaxKey', link: 'https://maxkey.top/' }
+        ]
+    },
     { text: 'Gitee', link: 'https://gitee.com/dromara/forest' },
     { text: 'Github', link: 'https://github.com/dromara/forest' },
 ];

@@ -29,10 +29,10 @@ postList: none
 ::: cardList
 ```yaml
 - name: MaxKey
-  desc: 开箱即用的数据库建模、产品版本管理软件
+  desc: 业界领先的身份管理和认证产品
   avatar: /img/sponsor/max-key.png
   link: https://maxkey.top/
-  bgColor: '#9ed3e5' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  bgColor: '#e6e6e6' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#1f2328' # 可选，默认var(--textColor)
 - name: 成为赞助商
   desc: 期待您的大力支持

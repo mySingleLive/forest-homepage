@@ -20,6 +20,11 @@
 
 
 module.exports = {
+  sidebarT: `
+    <a href="https://maxkey.top/" target="_blank">
+      <img class="no-zoom" height="60px" src="/img/ad/max-key-banner.png">
+    </a>
+  `,
   // 万维广告
   pageT: `
     <div class="wwads-cn wwads-horizontal page-wwads" data-id="128"></div>

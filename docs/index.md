@@ -34,6 +34,12 @@ postList: none
   link: https://maxkey.top/
   bgColor: '#e6e6e6' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#1f2328' # 可选，默认var(--textColor)
+- name: Snowy
+  desc: 国内首个国密前后端分离快速开发平台
+  avatar: /img/sponsor/snowy.png
+  link: https://xiaonuo.vip/
+  bgColor: '#e6e6e6' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#1f2328' # 可选，默认var(--textColor)
 - name: 成为赞助商
   desc: 期待您的大力支持
   avatar: /img/sponsor/sponsor.svg

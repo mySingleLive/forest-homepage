@@ -24,6 +24,9 @@ module.exports = {
     <a href="https://maxkey.top/" target="_blank">
       <img class="no-zoom" height="60px" src="/img/ad/max-key-banner.png">
     </a>
+    <a href="https://xiaonuo.vip/" target="_blank">
+      <img class="no-zoom" height="60px" src="/img/ad/snowy-banner.jpg">
+    </a>
   `,
   // 万维广告
   pageT: `

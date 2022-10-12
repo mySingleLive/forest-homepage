@@ -32,14 +32,20 @@ postList: none
   desc: 业界领先的身份管理和认证产品
   avatar: /img/sponsor/max-key.png
   link: https://maxkey.top/
-  bgColor: '#e6e6e6' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
-  textColor: '#1f2328' # 可选，默认var(--textColor)
+  bgColor: '#282c34' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#ffffff' # 可选，默认var(--textColor)
 - name: Snowy
   desc: 国内首个国密前后端分离快速开发平台
   avatar: /img/sponsor/snowy.png
   link: https://xiaonuo.vip/
-  bgColor: '#e6e6e6' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
-  textColor: '#1f2328' # 可选，默认var(--textColor)
+  bgColor: '#1373CC' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#ffffff' # 可选，默认var(--textColor)
+- name: Eoapi
+  desc: 一个开源、可拓展的 API 工具平台
+  avatar: /img/sponsor/eoapi.jpg
+  link: https://www.eoapi.io/?utm_source=sponsor&utm_campaign=s-forest
+  bgColor: '#00785A' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  textColor: '#ffffff' # 可选，默认var(--textColor)
 - name: 成为赞助商
   desc: 期待您的大力支持
   avatar: /img/sponsor/sponsor.svg

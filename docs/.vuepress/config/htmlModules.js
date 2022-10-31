@@ -21,15 +21,6 @@
 
 module.exports = {
   sidebarT: `
-    <a href="https://maxkey.top/" target="_blank">
-      <img class="no-zoom" height="60px" src="/img/ad/max-key-banner.png">
-    </a>
-    <a href="https://xiaonuo.vip/" target="_blank">
-      <img class="no-zoom" height="60px" src="/img/ad/snowy-banner.jpg">
-    </a>
-    <a href="https://docs.eoapi.io/?utm_source=sponsor&utm_campaign=s-forest" target="_blank">
-      <img class="no-zoom" height="60px" src="/img/ad/eoapi-banner.gif">
-    </a>
   `,
   // 万维广告
   pageT: `

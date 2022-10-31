@@ -1,6 +1,22 @@
 /**
  * to主题使用者：你可以去掉本文件的所有代码
  */
+
+let sidebarArray = [
+  `<a href="https://maxkey.top/" target="_blank">
+    <img className="no-zoom" height="60px" src="/img/ad/max-key-banner.png">
+  </a>`,
+  `<a href="https://xiaonuo.vip/" target="_blank">
+    <img className="no-zoom" height="60px" src="/img/ad/snowy-banner.jpg">
+  </a>`,
+  `<a href="https://www.eoapi.io/?utm_source=sponsor&utm_campaign=s-forest" target="_blank">
+    <img className="no-zoom" height="60px" src="/img/ad/eoapi-banner.gif">
+  </a>`,
+  `<a href="http://apifox.cn/a103forest" target="_blank">
+    <img className="no-zoom" height="60px" src="/img/ad/apifox-banner.png">
+  </a>`,
+]
+
 export default ({
   Vue, // VuePress 正在使用的 Vue 构造函数
   options, // 附加到根实例的一些选项
@@ -20,6 +36,34 @@ export default ({
           }
         }, 3000);
       });
+
+      setTimeout(() => {
+        function shuffle(arr){
+          var l = arr.length
+          var index, temp
+          while(l>0){
+            index = Math.floor(Math.random()*l)
+            temp = arr[l-1]
+            arr[l-1] = arr[index]
+            arr[index] = temp
+            l--
+          }
+          return arr
+        }
+
+        const sidebarTop = document.querySelector('.sidebar-slot-top')
+        if (!sidebarTop) return
+        sidebarArray = shuffle(sidebarArray);
+        let _html = `<div style="width:230px;margin:0 auto"> 
+            ${sidebarArray.slice(0, 3).join("")}
+            <br/> 
+            <span style='color: gray;font-size: smaller;'>广告采用随机方式显示</span>
+            <span style='color: #E01E5A;font-size: smaller;font-weight: bolder;float: right'>️<a href='/pages/donate/#成为赞助商'>成为赞助商</a></span>
+            </div>`
+
+        sidebarTop.innerHTML = _html
+      }, 200);
+
 
       // 删除事件改为隐藏事件
       setTimeout(() => {

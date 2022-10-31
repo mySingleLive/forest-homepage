@@ -46,6 +46,12 @@ postList: none
   link: https://www.eoapi.io/?utm_source=sponsor&utm_campaign=s-forest
   bgColor: '#00785A' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#ffffff' # 可选，默认var(--textColor)
+- name: Apifox
+  desc: Apifox = Postman + Swagger + Mock + JMeter
+  avatar: /img/sponsor/apifox.png
+  link: http://apifox.cn/a103forest
+  bgColor: '#F8415A'
+  textColor: '#FFFFFF'
 - name: 成为赞助商
   desc: 期待您的大力支持
   avatar: /img/sponsor/sponsor.svg

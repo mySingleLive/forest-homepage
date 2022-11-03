@@ -7,6 +7,7 @@ actionText: 开始使用 →
 actionLink: /pages/1.5.x/install_guide/
 bannerBg: none
 
+sitemap.priority: 0.99
 
 features:
   - title: 🍭 容易上手

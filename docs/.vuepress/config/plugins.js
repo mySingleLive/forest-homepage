@@ -5,6 +5,14 @@ module.exports = [
         excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
     }],
 
+    ["@mr-hope/sitemap",
+        {
+            hostname: 'https://forest.dtflyx.com',
+            priority: 0.9,
+            changefreq: 'always'
+        },
+    ], // sitemap
+
     ['fulltext-search'], // 全文搜索
 
     [

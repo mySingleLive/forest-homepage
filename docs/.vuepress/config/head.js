@@ -1,7 +1,8 @@
 // Head Config
 module.exports = [
+  ['title', {}, 'Forest | 声明式HTTP框架'],
   ['link', { rel: 'icon', href: '/img/logo.svg' }], //favicons，资源放在public文件夹
-  ['meta', { name: 'keywords', content: 'Forest,Forest官网,规则引擎,流程引擎,开源,java规则引擎,rule engine,open source'}],
+  ['meta', { name: 'keywords', content: 'forest,forest官网,java forest,forest http,forest https,forest request,java http,http框架,http客户端,http请求,http响应,java 发送http,java发送请求,java request,http client,httpclient,okhttp,retrofit,feign'}],
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
   ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
   ['script', {async: true, src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉

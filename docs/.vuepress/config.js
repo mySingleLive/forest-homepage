@@ -6,7 +6,7 @@ module.exports = {
 
   theme: 'vdoing', // 使用依赖包主题
   title: "Forest",
-  description: '一个轻量，快速，稳定可编排的组件式规则引擎',
+  description: '一个优雅的、友好的、人性化的Java HTTP框架',
   base: "/",
   head,
   themeConfig,

@@ -120,7 +120,7 @@ postList: none
 <dependency>
   <groupId>com.dtflys.forest</groupId>
   <artifactId>forest-spring-boot-starter</artifactId>
-  <version>1.5.26</version>
+  <version>1.5.27</version>
 </dependency>
 ```
 </code-block>
@@ -130,13 +130,13 @@ postList: none
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-core</artifactId>
-    <version>1.5.26</version>
+    <version>1.5.27</version>
 </dependency>
 
 <dependency>
   <groupId>com.dtflys.forest</groupId>
   <artifactId>forest-spring</artifactId>
-  <version>1.5.26</version>
+  <version>1.5.27</version>
 </dependency>
 ```
 </code-block>
@@ -146,7 +146,7 @@ postList: none
 <dependency>
   <groupId>com.dtflys.forest</groupId>
   <artifactId>forest-core</artifactId>
-  <version>1.5.26</version>
+  <version>1.5.27</version>
 </dependency>
 ```
 </code-block>
@@ -186,7 +186,7 @@ JDK版本: `8+`
 <br/><br/>
 
 ## 🥤 开源社区平台
-
+<div class="row">
 <span class="link">
     <a href="https://gitee.com" target="_blank">
         <img :src="$withBase('/img/link/gitee-logo.png')" class="no-zoom">
@@ -198,7 +198,7 @@ JDK版本: `8+`
         <img :src="$withBase('/img/link/oschina-logo.png')" class="no-zoom">
     </a>
 </span>
-
+</div>
 <br><br>
 
 ## 🍻 dromara 组织项目
@@ -333,7 +333,7 @@ JDK版本: `8+`
 
 
 ## 🍹 友情链接
-
+<div class="row">
 <span class="link">
     <a href="http://www.ipidea.net/?utm-source=Forest&utm-keyword=?Forest" target="_blank">
         <img :src="$withBase('/img/link/ipidea.png')" class="no-zoom">
@@ -346,6 +346,13 @@ JDK版本: `8+`
     </a>
 </span>
 
+<span class="link">
+    <a href="https://www.wxy97.com/" target="_blank">
+        <img :src="$withBase('/img/link/wxy97-logo.jpg')" class="no-zoom icon">
+        <div>王旭阳博客</div>
+    </a>
+</span>
+</div>
 
 <br><br>
 
@@ -360,6 +367,19 @@ JDK版本: `8+`
     height:1.5em;
     max-width:180px;
     margin: 14px;
+  }
+  .link .icon {
+    margin: 14px 5px 14px 14px;
+  }
+  .link a {
+    display: flex;
+    flex-direction: row;
+  }
+  .link a div {
+    line-height: 51px;
+    font-weight: bold;
+    font-size: 0.75em;
+    color: #457451;
   }
   .page-wwads{
     width:100%!important;

@@ -120,7 +120,7 @@ postList: none
 <dependency>
   <groupId>com.dtflys.forest</groupId>
   <artifactId>forest-spring-boot-starter</artifactId>
-  <version>1.5.27</version>
+  <version>1.5.28</version>
 </dependency>
 ```
 </code-block>
@@ -130,13 +130,13 @@ postList: none
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-core</artifactId>
-    <version>1.5.27</version>
+    <version>1.5.28</version>
 </dependency>
 
 <dependency>
   <groupId>com.dtflys.forest</groupId>
   <artifactId>forest-spring</artifactId>
-  <version>1.5.27</version>
+  <version>1.5.28</version>
 </dependency>
 ```
 </code-block>
@@ -146,7 +146,7 @@ postList: none
 <dependency>
   <groupId>com.dtflys.forest</groupId>
   <artifactId>forest-core</artifactId>
-  <version>1.5.27</version>
+  <version>1.5.28</version>
 </dependency>
 ```
 </code-block>

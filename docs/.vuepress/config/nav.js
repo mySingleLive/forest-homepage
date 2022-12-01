@@ -4,6 +4,10 @@ module.exports = [
             { text: 'v1.5.x', link: '/pages/1.5.x/intro/' }
         ]
     },
+    { text: '🎠 插件', items:[
+            {text: '🎄 ForestX', link: '/pages/plugin/forestx/'}
+        ]
+    },
     { text: '🌰 案例', link: '/pages/1.5.x/case/' },
     { text: '💖 支持', link: '/pages/donate/' },
     { text: '🛫 更新记录', link: '/pages/releases/' },

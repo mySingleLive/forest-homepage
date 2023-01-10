@@ -44,7 +44,7 @@ postList: none
 - name: Eoapi
   desc: 一个开源、可拓展的 API 工具平台
   avatar: /img/sponsor/eoapi.jpg
-  link: https://www.eoapi.io/?utm_source=sponsor&utm_campaign=s-forest
+  link: https://postcat.com/?utm_source=sponsor&utm_campaign=s-forest
   bgColor: '#00785A' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#ffffff' # 可选，默认var(--textColor)
 - name: Apifox

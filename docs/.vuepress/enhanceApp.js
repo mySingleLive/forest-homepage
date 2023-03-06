@@ -9,7 +9,7 @@ let sidebarArray = [
   `<a href="https://xiaonuo.vip/" target="_blank">
     <img className="no-zoom" height="60px" src="/img/ad/snowy-banner.jpg">
   </a>`,
-  `<a href="https://postcat.com/?utm_source=sponsor&utm_campaign=s-forest" target="_blank">
+  `<a href="https://datayi.cn/w/noqbyyr9" target="_blank">
     <img className="no-zoom" height="60px" src="/img/ad/eoapi-banner.gif">
   </a>`,
   `<a href="http://apifox.cn/a103forest" target="_blank">

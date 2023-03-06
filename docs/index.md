@@ -41,10 +41,10 @@ postList: none
   link: https://xiaonuo.vip/
   bgColor: '#1373CC' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#ffffff' # 可选，默认var(--textColor)
-- name: Eoapi
-  desc: 一个开源、可拓展的 API 工具平台
-  avatar: /img/sponsor/eoapi.jpg
-  link: https://postcat.com/?utm_source=sponsor&utm_campaign=s-forest
+- name: Postcat
+  desc: 开源 API 管理工具，接口文档、接口测试、Mock..
+  avatar: /img/sponsor/eoapi.png
+  link: https://datayi.cn/w/noqbyyr9
   bgColor: '#00785A' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#ffffff' # 可选，默认var(--textColor)
 - name: Apifox

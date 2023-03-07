@@ -4,7 +4,7 @@ heroImage: /img/Forest_Logo_Anim.gif
 heroText: Forest
 tagline: 声明式HTTP客户端框架，减轻您的开发负担
 actionText: 开始使用 →
-actionLink: /pages/1.5.x/install_guide/
+actionLink: /pages/1.5.28/install_guide/
 bannerBg: none
 
 sitemap.priority: 0.99
@@ -45,7 +45,7 @@ postList: none
   desc: 开源 API 管理工具，接口文档、接口测试、Mock..
   avatar: /img/sponsor/eoapi.png
   link: https://datayi.cn/w/noqbyyr9
-  bgColor: '#00785A' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
+  bgColor: '#142765' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#ffffff' # 可选，默认var(--textColor)
 - name: Apifox
   desc: Apifox = Postman + Swagger + Mock + JMeter

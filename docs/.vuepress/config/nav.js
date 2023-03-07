@@ -1,14 +1,15 @@
 module.exports = [
     { text: '💒 首页', link: '/' },
-    { text: '📚 文档', link: '/pages/1.5.x/intro/', items: [
-            { text: 'v1.5.x', link: '/pages/1.5.x/intro/' }
+    { text: '📚 文档', link: '/pages/1.5.29/intro/', items: [
+            { text: 'v1.5.29', link: '/pages/1.5.29/intro/' },
+            { text: 'v1.5.28', link: '/pages/1.5.28/intro/' },
         ]
     },
     { text: '🎠 插件', items:[
             {text: '🎄 ForestX', link: '/pages/plugin/forestx/'}
         ]
     },
-    { text: '🌰 案例', link: '/pages/1.5.x/case/' },
+    { text: '🌰 案例', link: '/pages/1.5.29/case/' },
     { text: '💖 支持', link: '/pages/donate/' },
     { text: '🛫 更新记录', link: '/pages/releases/' },
     { text: '🧢 开发团队', link: '/pages/about_author/' },

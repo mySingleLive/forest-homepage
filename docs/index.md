@@ -114,39 +114,104 @@ postList: none
 
 
 <code-group>
-<code-block title="Springboot环境" active>
+<code-block title="Springboot 环境" active>
 
 ```xml
+<!-- Forest Spring Boot 启动包 -->
 <dependency>
-  <groupId>com.dtflys.forest</groupId>
-  <artifactId>forest-spring-boot-starter</artifactId>
-  <version>1.5.28</version>
+    <groupId>com.dtflys.forest</groupId>
+    <artifactId>forest-spring-boot-starter</artifactId>
+    <version>1.5.30</version>
+</dependency>
+
+<!-- Forest JAXB 扩展包 -->
+<dependency>
+    <groupId>com.dtflys.forest</groupId>
+    <artifactId>forest-jaxb</artifactId>
+    <version>1.5.30</version>
+</dependency>
+```
+
+</code-block>
+<code-block title="Springboot 3 环境">
+
+```xml
+<!-- Forest Spring Boot3 启动包 -->
+<dependency>
+    <groupId>com.dtflys.forest</groupId>
+    <artifactId>forest-spring-boot3-starter</artifactId>
+    <version>1.5.30</version>
+</dependency>
+
+<!-- Forest Jakarta 扩展包 -->
+<dependency>
+    <groupId>com.dtflys.forest</groupId>
+    <artifactId>forest-jakarta-xml</artifactId>
+    <version>1.5.30</version>
+</dependency>
+```
+
+</code-block>
+<code-block title="Spring 环境">
+
+```xml
+<!-- Forest 核心包 -->
+<dependency>
+    <groupId>com.dtflys.forest</groupId>
+    <artifactId>forest-core</artifactId>
+    <version>1.5.30</version>
+</dependency>
+
+<!-- Forest Spring 扩展包 -->
+<dependency>
+    <groupId>com.dtflys.forest</groupId>
+    <artifactId>forest-spring</artifactId>
+    <version>1.5.30</version>
+</dependency>
+
+<!-- Forest JAXB 扩展包 -->
+<dependency>
+    <groupId>com.dtflys.forest</groupId>
+    <artifactId>forest-jaxb</artifactId>
+    <version>1.5.30</version>
 </dependency>
 ```
 </code-block>
-<code-block title="Spring环境">
+
+<code-block title="Solon 环境">
 
 ```xml
+<!-- Forest Solon 插件包 -->
+<dependency>
+    <groupId>com.dtflys.forest</groupId>
+    <artifactId>forest-solon-plugin</artifactId>
+    <version>1.5.30</version>
+</dependency>
+
+<!-- Forest JAXB 扩展包 -->
+<dependency>
+    <groupId>com.dtflys.forest</groupId>
+    <artifactId>forest-jaxb</artifactId>
+    <version>1.5.30</version>
+</dependency>
+```
+</code-block>
+
+<code-block title="原生 Java 环境">
+
+```xml
+<!-- Forest 核心包 -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-core</artifactId>
     <version>1.5.28</version>
 </dependency>
 
+<!-- Forest JAXB 扩展包 -->
 <dependency>
-  <groupId>com.dtflys.forest</groupId>
-  <artifactId>forest-spring</artifactId>
-  <version>1.5.28</version>
-</dependency>
-```
-</code-block>
-<code-block title="原生Java环境">
-
-```xml
-<dependency>
-  <groupId>com.dtflys.forest</groupId>
-  <artifactId>forest-core</artifactId>
-  <version>1.5.28</version>
+    <groupId>com.dtflys.forest</groupId>
+    <artifactId>forest-jaxb</artifactId>
+    <version>1.5.30</version>
 </dependency>
 ```
 </code-block>

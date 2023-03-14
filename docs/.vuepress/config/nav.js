@@ -1,6 +1,6 @@
 module.exports = [
     { text: '💒 首页', link: '/' },
-    { text: '📚 文档', link: '/pages/1.5.29/intro/', items: [
+    { text: '📚 文档', link: '/pages/1.5.30/intro/', items: [
             { text: 'v1.5.30', link: '/pages/1.5.30/intro/' },
             { text: 'v1.5.28', link: '/pages/1.5.28/intro/' },
         ]
@@ -9,7 +9,7 @@ module.exports = [
             {text: '🎄 ForestX', link: '/pages/plugin/forestx/'}
         ]
     },
-    { text: '🌰 案例', link: '/pages/1.5.29/case/' },
+    { text: '🌰 案例', link: '/pages/1.5.30/case/' },
     { text: '💖 支持', link: '/pages/donate/' },
     { text: '🛫 更新记录', link: '/pages/releases/' },
     { text: '🧢 开发团队', link: '/pages/about_author/' },

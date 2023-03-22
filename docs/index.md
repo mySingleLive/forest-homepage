@@ -4,7 +4,7 @@ heroImage: /img/Forest_Logo_Anim.gif
 heroText: Forest
 tagline: 声明式HTTP客户端框架，减轻您的开发负担
 actionText: 开始使用 →
-actionLink: /pages/1.5.28/install_guide/
+actionLink: /pages/1.5.30/install_guide/
 bannerBg: none
 
 sitemap.priority: 0.99

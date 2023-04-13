@@ -63,6 +63,11 @@ postList: none
 :::
 <br/>
 
+<!-- AD -->
+<div class="wwads-cn wwads-horizontal page-wwads" data-id="128"></div>
+
+<br/>
+
 
 <style>
 .become-sponsor{
@@ -421,8 +426,6 @@ JDK版本: `8+`
 
 <br><br>
 
-<!-- AD -->
-<div class="wwads-cn wwads-horizontal page-wwads" data-id="128"></div>
 <style>
   .link {
     width: 8.4em;

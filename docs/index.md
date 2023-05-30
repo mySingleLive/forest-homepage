@@ -52,7 +52,14 @@ postList: none
   avatar: /img/sponsor/apifox.png
   link: http://apifox.cn/a103forest
   bgColor: '#F8415A'
-  textColor: '#FFFFFF'
+  textColor: '#ffffff'
+- name: 明道云零代码平台
+  desc: 快速响应业务需求，从“IT背锅侠”变成“IT英雄”
+  avatar: /img/sponsor/mingdao.png
+  link: https://www.mingdao.com?s=utm_80&utm_source=forest&utm_medium=banner&utm_campaign=IT%E7%BD%91%E7%AB%99&utm_content=IT%E8%B5%8B%E8%83%BD%E4%B8%9A%E5%8A%A1
+  bgColor: '#2196f3'
+  textColor: '#ffffff'
+ 
 - name: 成为赞助商
   desc: 期待您的大力支持
   avatar: /img/sponsor/sponsor.svg
@@ -417,11 +424,19 @@ JDK版本: `8+`
 </span>
 
 <span class="link">
+    <a href="https://www.mingdao.com?s=utm_82&utm_source=forest&utm_medium=referral&utm_campaign=friendLink&utm_content=website_footer" target="_blank">
+        <img :src="$withBase('/img/link/mingdao-logo.png')" class="no-zoom icon">
+    </a>
+</span>
+
+<span class="link">
     <a href="https://www.wxy97.com/" target="_blank">
         <img :src="$withBase('/img/link/wxy97-logo.jpg')" class="no-zoom icon">
         <div>王旭阳博客</div>
     </a>
 </span>
+
+
 </div>
 
 <br><br>

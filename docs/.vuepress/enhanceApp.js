@@ -14,6 +14,9 @@ let sidebarArray = [
   </a>`,
   `<a href="http://apifox.cn/a103forest" target="_blank">
     <img className="no-zoom" height="60px" src="/img/ad/apifox-banner.png">
+  </a>
+  <a href="https://www.mingdao.com?s=utm_80&utm_source=forest&utm_medium=banner&utm_campaign=IT%E7%BD%91%E7%AB%99&utm_content=IT%E8%B5%8B%E8%83%BD%E4%B8%9A%E5%8A%A1" target="_blank">
+    <img className="no-zoom" height="60px" src="/img/ad/mingdao-banner.jpg">
   </a>`,
 ]
 

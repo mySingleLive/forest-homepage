@@ -4,7 +4,7 @@ heroImage: /img/Forest_Logo_Anim.gif
 heroText: Forest
 tagline: 声明式HTTP客户端框架，减轻您的开发负担
 actionText: 开始使用 →
-actionLink: /pages/1.5.31/install_guide/
+actionLink: /pages/1.5.32/install_guide/
 bannerBg: none
 
 sitemap.priority: 0.99
@@ -133,14 +133,14 @@ postList: none
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-spring-boot-starter</artifactId>
-    <version>1.5.31</version>
+    <version>1.5.32</version>
 </dependency>
 
 <!-- Forest JAXB 扩展包 -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-jaxb</artifactId>
-    <version>1.5.31</version>
+    <version>1.5.32</version>
 </dependency>
 ```
 
@@ -152,14 +152,14 @@ postList: none
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-spring-boot3-starter</artifactId>
-    <version>1.5.31</version>
+    <version>1.5.32</version>
 </dependency>
 
 <!-- Forest Jakarta 扩展包 -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-jakarta-xml</artifactId>
-    <version>1.5.31</version>
+    <version>1.5.32</version>
 </dependency>
 ```
 
@@ -171,21 +171,21 @@ postList: none
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-core</artifactId>
-    <version>1.5.31</version>
+    <version>1.5.32</version>
 </dependency>
 
 <!-- Forest Spring 扩展包 -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-spring</artifactId>
-    <version>1.5.31</version>
+    <version>1.5.32</version>
 </dependency>
 
 <!-- Forest JAXB 扩展包 -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-jaxb</artifactId>
-    <version>1.5.31</version>
+    <version>1.5.32</version>
 </dependency>
 ```
 </code-block>
@@ -197,14 +197,14 @@ postList: none
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-solon-plugin</artifactId>
-    <version>1.5.31</version>
+    <version>1.5.32</version>
 </dependency>
 
 <!-- Forest JAXB 扩展包 -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-jaxb</artifactId>
-    <version>1.5.31</version>
+    <version>1.5.32</version>
 </dependency>
 ```
 </code-block>
@@ -216,14 +216,14 @@ postList: none
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-core</artifactId>
-    <version>1.5.28</version>
+    <version>1.5.32</version>
 </dependency>
 
 <!-- Forest JAXB 扩展包 -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-jaxb</artifactId>
-    <version>1.5.31</version>
+    <version>1.5.32</version>
 </dependency>
 ```
 </code-block>

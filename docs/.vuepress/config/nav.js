@@ -19,7 +19,8 @@ module.exports = [
     { text: '推荐', items: [
             { text: 'MaxKey - 业界领先的身份管理和认证产品', link: 'https://maxkey.top/' },
             { text: 'Snowy - 国内首个国密前后端分离快速开发平台', link: 'https://xiaonuo.vip/' },
-            { text: 'Eoapi - 一个开源、可拓展的 API 工具平台', link: 'https://www.eoapi.io/?utm_source=sponsor&utm_campaign=s-forest' }
+            { text: 'Eoapi - 一个开源、可拓展的 API 工具平台', link: 'https://www.eoapi.io/?utm_source=sponsor&utm_campaign=s-forest' },
+            { text: 'Fast Request - IDEA版Postman,为简化API调试而生', link: 'https://dromara.gitee.io/fast-request' }
         ]
     },
     { text: '源码', items: [

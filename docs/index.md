@@ -65,6 +65,12 @@ postList: none
   link: https://dromara.gitee.io/fast-request/
   bgColor: '#2a2a2a'
   textColor: '#ffffff'
+- name: zyplayer-doc
+  desc: 可私有化部署的文档与知识库管理平台
+  avatar: /img/sponsor/zyplayer-logo.png
+  link: https://doc.zyplayer.com/#/integrate/zyplayer-doc?utm=forest
+  bgColor: '#ffffff'
+  textColor: '#000000'
 - name: 成为赞助商
   desc: 期待您的大力支持
   avatar: /img/sponsor/sponsor.svg

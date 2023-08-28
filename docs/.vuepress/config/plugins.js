@@ -13,7 +13,9 @@ module.exports = [
         },
     ], // sitemap
 
-    ['fulltext-search'], // 全文搜索
+    [
+        'fulltext-search',
+    ], // 全文搜索
 
     [
         'vuepress-plugin-baidu-tongji', // 百度统计

@@ -47,12 +47,6 @@ postList: none
   link: https://datayi.cn/w/noqbyyr9
   bgColor: '#142765' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
   textColor: '#ffffff' # 可选，默认var(--textColor)
-- name: Apifox
-  desc: Apifox = Postman + Swagger + Mock + JMeter
-  avatar: /img/sponsor/apifox.png
-  link: http://apifox.cn/a103forest
-  bgColor: '#F8415A'
-  textColor: '#ffffff'
 - name: 明道云零代码平台
   desc: 快速响应业务需求，从“IT背锅侠”变成“IT英雄”
   avatar: /img/sponsor/mingdao.png

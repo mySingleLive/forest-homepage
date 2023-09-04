@@ -1,6 +1,6 @@
 module.exports = [
     { text: '💒 首页', link: '/' },
-    { text: '📚 文档', link: '/pages/1.5.30/intro/', items: [
+    { text: '📚 文档', link: '/pages/1.5.32/intro/', items: [
             { text: 'v1.5.33 (最新版本)', link: '/pages/1.5.33/intro/' },
             { text: 'v1.5.30 ~ v1.5.32', link: '/pages/1.5.32/intro/' },
             { text: 'v1.5.0 ~ v1.5.28', link: '/pages/1.5.28/intro/' },

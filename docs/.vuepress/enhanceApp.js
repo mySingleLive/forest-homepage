@@ -4,7 +4,7 @@
 
 let sidebarArray = [
   `<a href="https://maxkey.top/" target="_blank">
-    <img className="no-zoom" height="60px" src="/img/ad/max-key-banner.png">
+    <img className="no-zoom" height="60px" src="/img/ad/maxkey-banner.jpg">
   </a>`,
   `<a href="https://xiaonuo.vip/" target="_blank">
     <img className="no-zoom" height="60px" src="/img/ad/snowy-banner.jpg">

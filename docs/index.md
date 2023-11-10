@@ -65,6 +65,12 @@ postList: none
   link: https://doc.zyplayer.com/#/integrate/zyplayer-doc?utm=forest
   bgColor: '#ffffff'
   textColor: '#000000'
+- name: frsimple
+  desc: 一个纯净的中后台脚手架，无封装，支持springboot2.7.x和3.x双分支版本
+  avatar: /img/sponsor/frsimple.jpg
+  link: https://frsimple.cn/blogs/other/money.html
+  bgColor: '#407cfe'
+  textColor: '#ffffff'
 - name: 成为赞助商
   desc: 期待您的大力支持
   avatar: /img/sponsor/sponsor.svg

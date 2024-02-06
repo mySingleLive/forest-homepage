@@ -322,8 +322,8 @@ JDK版本: `8+`
     </a>
 </span>
 <span class="link">
-    <a href="https://gitee.com/dromara/myth" target="_blank">
-        <img :src="$withBase('/img/dromara/myth-logo.png')" class="no-zoom">
+    <a href="https://gitee.com/dromara/Akali" target="_blank">
+        <img :src="$withBase('/img/dromara/akali-logo.png')" class="no-zoom">
     </a>
 </span>
 <span class="link">

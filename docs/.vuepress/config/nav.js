@@ -15,6 +15,7 @@ module.exports = [
     { text: '💖 支持', link: '/pages/donate/' },
     { text: '🛫 更新记录', link: '/pages/releases/' },
     { text: '🧢 开发团队', link: '/pages/about_author/' },
+    { text: '🏄🏻 用户', link: '/pages/users/' },
     { text: '⚒️ 参与贡献', link: '/pages/contribute/' },
     { text: '推荐', items: [
             { text: 'MaxKey - 业界领先的身份管理和认证产品', link: 'https://maxkey.top/' },

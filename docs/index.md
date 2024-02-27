@@ -2,13 +2,16 @@
 home: true
 heroImage: /img/Forest_Logo_Anim.gif
 heroText: Forest
-tagline: 声明式HTTP客户端框架，减轻您的开发负担
+tagline: 声明式HTTP客户端框架，让天下没有难发送的请求
 actionText: 开始使用 →
-actionLink: /pages/1.5.33/install_guide/
+actionLink: /pages/1.5.36/install_guide/
+actions:
+  - actionText: 开始使用 →
+    actionLink: /pages/1.5.36/install_guide/
+  - actionText: 加入社区
+    actionLink: /pages/group/
 bannerBg: none
-
 sitemap.priority: 0.99
-
 features:
   - title: 🍭 容易上手
     details: 10分钟即可完成请求的定义、发送、接收、解析、错误处理、日志打印等过程，此外还有直观的API和详尽的文档
@@ -140,18 +143,19 @@ postList: none
 <code-block title="Springboot 环境" active>
 
 ```xml
+<!-- Spring Boot3 环境请用 forest-spring-boot3-starter -->
 <!-- Forest Spring Boot 启动包 -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-spring-boot-starter</artifactId>
-    <version>1.5.33</version>
+    <version>1.5.36</version>
 </dependency>
 
 <!-- Forest JAXB 扩展包 -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-jaxb</artifactId>
-    <version>1.5.33</version>
+    <version>1.5.36</version>
 </dependency>
 ```
 
@@ -163,14 +167,14 @@ postList: none
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-spring-boot3-starter</artifactId>
-    <version>1.5.33</version>
+    <version>1.5.36</version>
 </dependency>
 
 <!-- Forest Jakarta 扩展包 -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-jakarta-xml</artifactId>
-    <version>1.5.33</version>
+    <version>1.5.36</version>
 </dependency>
 ```
 
@@ -182,21 +186,21 @@ postList: none
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-core</artifactId>
-    <version>1.5.33</version>
+    <version>1.5.36</version>
 </dependency>
 
 <!-- Forest Spring 扩展包 -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-spring</artifactId>
-    <version>1.5.33</version>
+    <version>1.5.36</version>
 </dependency>
 
 <!-- Forest JAXB 扩展包 -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-jaxb</artifactId>
-    <version>1.5.33</version>
+    <version>1.5.36</version>
 </dependency>
 ```
 </code-block>
@@ -208,14 +212,14 @@ postList: none
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-solon-plugin</artifactId>
-    <version>1.5.33</version>
+    <version>1.5.36</version>
 </dependency>
 
 <!-- Forest JAXB 扩展包 -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-jaxb</artifactId>
-    <version>1.5.33</version>
+    <version>1.5.36</version>
 </dependency>
 ```
 </code-block>
@@ -227,14 +231,14 @@ postList: none
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-core</artifactId>
-    <version>1.5.33</version>
+    <version>1.5.36</version>
 </dependency>
 
 <!-- Forest JAXB 扩展包 -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-jaxb</artifactId>
-    <version>1.5.33</version>
+    <version>1.5.36</version>
 </dependency>
 ```
 </code-block>
@@ -245,7 +249,9 @@ postList: none
 
 JDK版本: `8+`
 
-可集成的 spring boot 版本: `1.x`, `2.x`
+可集成的 spring boot 版本: `1.x`, `2.x`, `3.x`
+
+spring boot3 所依赖的 starter 不同，请注意坐标
 
 也可不依赖 spring boot 和 spring
 :::

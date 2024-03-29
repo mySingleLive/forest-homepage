@@ -74,6 +74,12 @@ postList: none
   link: https://frsimple.cn/blogs/other/money.html
   bgColor: '#407cfe'
   textColor: '#ffffff'
+- name: JNPF低代码开发平台
+  desc: 技术双引擎系统，无限制业务场景，永久使用权，全源码交付
+  avatar: /img/sponsor/jnpfsoft.png
+  link: https://www.jnpfsoft.com/index.html?from=forest
+  bgColor: '#ffffff'
+  textColor: '#000000'
 - name: 成为赞助商
   desc: 期待您的大力支持
   avatar: /img/sponsor/sponsor.svg

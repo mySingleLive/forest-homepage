@@ -1,9 +1,5 @@
 // Plugin Config
 module.exports = [
-    [require('../plugins/love-me'), { // 鼠标点击爱心特效
-        color: '#4aa962', // 爱心颜色，默认随机色
-        excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
-    }],
 
     ["@mr-hope/sitemap",
         {

@@ -12,6 +12,7 @@ module.exports = [
             {text: '🎄 ForestX', link: '/pages/plugin/forestx/'}
         ]
     },
+    { text: '⁉️ 问答', link: '/pages/q_and_a/' },
     { text: '🌰 案例', link: '/pages/1.5.33/case/' },
     { text: '💖 支持', link: '/pages/donate/' },
     { text: '🛫 更新记录', link: '/pages/releases/' },

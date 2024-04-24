@@ -29,7 +29,7 @@ module.exports = [
     { text: '🏌 社区', items:[
             { text: '加入群聊', link: '/pages/group/'},
             { text: '用户', link: '/pages/users/' },
-            { text: '案例', link: '/pages/1.5.33/case/' },
+            { text: '案例', link: '/pages/1.5.36/case/' },
             { text: '开发团队', link: '/pages/about_author/'},
         ]
     },

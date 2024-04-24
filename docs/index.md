@@ -2,7 +2,7 @@
 home: true
 heroImage: /img/Forest_Logo_Anim.gif
 heroText: Forest
-tagline: 声明式HTTP客户端框架，让天下没有难发送的请求
+tagline: 声明式与编程式双修，让天下没有难以发送的 HTTP 请求
 actionText: 开始使用 →
 actionLink: /pages/1.5.36/install_guide/
 actions:

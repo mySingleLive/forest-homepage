@@ -1,8 +1,8 @@
 module.exports = [
-    { text: '💒 首页', link: '/' },
-    { text: '📚 文档', link: '/pages/1.5.36/intro/', items: [
+    { text: '首页', link: '/' },
+    { text: '文档', link: '/pages/1.5.36/install_guide/', items: [
             { text: '当前版本', items: [
-                    {text: 'v1.5.36', link: '/pages/1.5.36/intro/'}
+                    {text: 'v1.5.36', link: '/pages/1.5.36/install_guide/'}
                 ]
             },
             { text: '历史版本', items: [
@@ -26,16 +26,19 @@ module.exports = [
             },
         ]
     },
-    { text: '🏌 社区', items:[
+    { text: '社区', items:[
             { text: '加入群聊', link: '/pages/group/'},
-            { text: '项目用户', link: '/pages/users/' },
-            { text: '项目案例', link: '/pages/1.5.36/case/' },
-            { text: '开发团队', link: '/pages/about_author/'},
+            { text: '赞助我们', link: '/pages/donate/'},
+            { text: '参与贡献', link: '/pages/contribute/'},
+            { text: '贡献者们', link: '/pages/contributors/'},
         ]
     },
-    { text: '💖 支持', items:[
-            { text: '捐赠', link: '/pages/donate/'},
-            { text: '参与贡献', link: '/pages/contribute/'},
+    { text: '关于', items:[
+            { text: '项目介绍', link: '/pages/intro/' },
+            { text: '谁在使用', link: '/pages/users/' },
+            { text: '项目案例', link: '/pages/cases/' },
+            { text: '开发团队', link: '/pages/team/'},
+            { text: '关于作者', link: '/pages/author/'},
         ]
     },
     { text: '推荐', items: [

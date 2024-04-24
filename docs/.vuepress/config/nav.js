@@ -1,25 +1,43 @@
 module.exports = [
     { text: '💒 首页', link: '/' },
     { text: '📚 文档', link: '/pages/1.5.36/intro/', items: [
-            { text: 'v1.5.36(最新版本)', link: '/pages/1.5.36/intro/' },
-            { text: 'v1.5.35', link: '/pages/1.5.35/intro/' },
-            { text: 'v1.5.33', link: '/pages/1.5.33/intro/' },
-            { text: 'v1.5.30 ~ v1.5.32', link: '/pages/1.5.32/intro/' },
-            { text: 'v1.5.0 ~ v1.5.28', link: '/pages/1.5.28/intro/' },
+            { text: '当前版本', items: [
+                    {text: 'v1.5.36', link: '/pages/1.5.36/intro/'}
+                ]
+            },
+            { text: '历史版本', items: [
+                    { text: 'v1.5.35', link: '/pages/1.5.35/intro/' },
+                    { text: 'v1.5.33', link: '/pages/1.5.33/intro/' },
+                    { text: 'v1.5.30 ~ v1.5.32', link: '/pages/1.5.32/intro/' },
+                    { text: 'v1.5.0 ~ v1.5.28', link: '/pages/1.5.28/intro/' },
+                ]
+            },
+            { text: '插件', items: [
+                    {text: 'ForestX', link: '/pages/plugin/forestx/'}
+                ]
+            },
+            { text: '问答', items: [
+                    { text: '常见问题', link: '/pages/q_and_a/' },
+                ]
+            },
+            { items: [
+                    { text: '更新记录', link: '/pages/releases/' },
+                ]
+            },
         ]
     },
-    { text: '🎠 插件', items:[
-            {text: '🎄 ForestX', link: '/pages/plugin/forestx/'}
+    { text: '🏌 社区', items:[
+            { text: '加入群聊', link: '/pages/group/'},
+            { text: '用户', link: '/pages/users/' },
+            { text: '案例', link: '/pages/1.5.33/case/' },
+            { text: '开发团队', link: '/pages/about_author/'},
         ]
     },
-    { text: '⁉️ 问答', link: '/pages/q_and_a/' },
-    { text: '🌰 案例', link: '/pages/1.5.33/case/' },
-    { text: '💖 支持', link: '/pages/donate/' },
-    { text: '🛫 更新记录', link: '/pages/releases/' },
-    { text: '🧢 开发团队', link: '/pages/about_author/' },
-    { text: '🏌 社区', link: '/pages/group/' },
-    { text: '🏄🏻 用户', link: '/pages/users/' },
-    { text: '⚒️ 参与贡献', link: '/pages/contribute/' },
+    { text: '💖 支持', items:[
+            { text: '捐赠', link: '/pages/donate/'},
+            { text: '参与贡献', link: '/pages/contribute/'},
+        ]
+    },
     { text: '推荐', items: [
             { text: 'MaxKey - 业界领先的身份管理和认证产品', link: 'https://maxkey.top/' },
             { text: 'Snowy - 国内首个国密前后端分离快速开发平台', link: 'https://xiaonuo.vip/' },

@@ -19,6 +19,12 @@ features:
     details: 将繁复的 HTTP 请求细节封装成 Java 接口 + 注解的形式，不必关心请求发送的具体过程
   - title: 🧩 扩展灵活
     details: 能使用自定义拦截器和自定义注解来扩展Forest的能力，即使面对意想不到的场景也能轻松应对
+  - title: 🧱 多种后端
+    details: Forest 后端底层支持 OkHttp3 和 HttpClient 框架，助你应对各种场景的不同情况
+  - title: 🏸 多种范式
+    details: Forest 支持声明式以及编程式的请求发送范式，并对每种范式都提供了尽可能快捷高效的接口
+  - title: ⚽️ 多种格式
+    details: Forest 支持JSON、XML、表单、Protobuf 等多种主流数据格式转换
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
@@ -26,7 +32,7 @@ postList: none
 
 <br/><br/>
 
-## 🍦 特别赞助
+## 特别赞助
 
 <br/>
 
@@ -109,7 +115,7 @@ postList: none
 
 <br>
 
-## 🎉 特性
+## 特性
 
 <div class="row">
     <div class="col" style="margin: 1.5rem 2.5rem 0rem 0rem; width: 28.5rem;">
@@ -142,7 +148,56 @@ postList: none
 <br><br>
 
 
-## 🎨 最新版本
+## 正在使用 Forest 的企业
+
+<div class="users_block">
+    <table class="user_logo">
+        <tr>
+            <td><a href="https://www.huawei.com/cn/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img height="50px" src="/img/users/logo_huawei.png" class="no-zoom" alt="华为"></div></a></td>
+            <td><a href="https://www.thebeastshop.com/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img height="50px" src="/img/users/logo_thebeastshop.jpg" class="no-zoom" alt="野兽派花店"></div></a></td>
+            <td><a href="https://zgh.com/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img height="50px" src="/img/users/logo_geely.png" class="no-zoom" alt="吉利集团"></div></a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.ictbda.com/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img src="/img/users/logo_ictbda.png" class="no-zoom" alt="中科院计算所大数据研究院"></div></a></td>
+            <td><a href="https://www.woshipm.com/" target="_blank"><div class="logo_box1" style="background-color: #4470f5"><img src="/img/users/logo_woshipm.webp" class="no-zoom" alt="人人都是产品经理"></div></a></td>
+            <td><a href="http://tldt.net/" target="_blank"><div class="logo_box" style="background-color: #1590d6;"><img src="/img/users/logo_tldt.png" class="no-zoom" alt="神州通立电梯"></div></a></td>
+        </tr>
+        <tr>
+            <td><a href="https://weidubim.com/" target="_blank"><div class="logo_box" style="background-color: #222222;"><img height="50px" src="/img/users/logo_weidubim.png" class="no-zoom" alt="万智维度"></div></a></td>
+            <td><a href="https://www.yiring.com/" target="_blank"><div class="logo_box0" style="background-color: #ffffff"><img src="/img/users/logo_yiring.png" class="no-zoom" alt="壹润"></div></a></td>
+            <td><a href="http://gzsunrun.cn/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img height="50px" src="/img/users/logo_gzsunrun.jpg" class="no-zoom" alt="尚融网络科技"></div></a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.huafang-aiot.com/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img src="/img/users/logo_huafangzhilian.png" class="no-zoom" alt="华方智联"></div></a></td>
+            <td><a href="https://www.hyperchain.cn/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img src="/img/users/logo_hyperchain.png" class="no-zoom" alt="趣链科技"></div></a></td>
+            <td><a href="https://www.byai.com/" target="_blank"><div class="logo_box" style="background-color: #2b58fa;"><img src="/img/users/logo_byai.png" class="no-zoom" alt="百应"></div></a></td>
+        </tr>
+        <tr>
+            <td><a href="http://www.datapps.cn/" target="_blank"><div class="logo_box" style="background-color: #095888"><img src="/img/users/logo_datapps.png" class="no-zoom" alt="聚云位智"></div></a></td>
+            <td><a href="https://m.hibobi.com/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img src="/img/users/logo_hibobi.png" class="no-zoom" alt="嗨宝贝"></div></a></td>
+            <td><a href="https://hzqianqi.com/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img src="/img/users/logo_hzqianqi.png" class="no-zoom" alt="仟奇"></div></a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.swifthealth.cn/" target="_blank"><div class="logo_box" style="background-color: #ffffff;"><img src="/img/users/logo_swifthealth.png" class="no-zoom" alt="朝前智能"></div></a></td>
+            <td><a href="https://www.manyibar.com/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img src="/img/users/logo_manyibar.png" class="no-zoom" alt="满意吧"></div></a></td>
+            <td><a href="http://www.ue-one.com/" target="_blank"><div class="logo_box" style="background-color: #042f55;"><img src="/img/users/logo_ue-one.png" class="no-zoom" alt="源一科技"></div></a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.xwsoft.com.cn/" target="_blank"><div class="logo_box" style="background-color: #333333;"><img src="/img/users/logo_xwsoft.png" class="no-zoom" alt="欣网视讯"></div></a></td>
+            <td><a href="http://www.ynjzh.com/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img src="/img/users/logo_ynjzh.png" class="no-zoom" alt="嘉之会科技"></div></a></td>
+            <td><a href="http://www.xingsnb.cn/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img height="50px" src="/img/users/logo_xingsnb.jpg" class="no-zoom" alt="星晟工程"></div></a></td>
+        </tr>
+    </table>
+</div>
+
+<div style="text-align: center">
+（如果您的企业也使用 Forest，您可以 <a href="javascript:window.open('https://gitee.com/dromara/forest/issues/I3CG1U')">在此</a> 提交）
+</div>
+
+<br><br>
+
+
+## 最新版本
 
 
 <code-group>
@@ -265,7 +320,7 @@ spring boot3 所依赖的 starter 不同，请注意坐标
 <br/><br/>
 
 
-## 🛰️ 代码托管
+## 代码托管
 
 <a href='https://gitee.com/dromara/forest' target="_blank">
     <img class="no-zoom" src="https://img.shields.io/badge/Gitee-red?logo=gitee&logoColor=white&style=for-the-badge"/>
@@ -277,7 +332,7 @@ spring boot3 所依赖的 starter 不同，请注意坐标
 
 <br/><br/>
 
-## 👨‍🎓 知识星球
+## 知识星球
 
 <span class="row" style="height: 180px">
     <img class="img_shadow2 col" style="height: 180px;" :src="$withBase('/img/dromara-zsxq-h.png')" alt="zsxq" />
@@ -285,7 +340,7 @@ spring boot3 所依赖的 starter 不同，请注意坐标
 
 <br/><br/>
 
-## 🥤 开源社区平台
+## 开源社区平台
 <div class="row">
 <span class="link">
     <a href="https://gitee.com" target="_blank">
@@ -301,7 +356,7 @@ spring boot3 所依赖的 starter 不同，请注意坐标
 </div>
 <br><br>
 
-## 🍻 dromara 组织项目
+## dromara 组织项目
 <div class="row">
 <span class="link">
     <a href="https://gitee.com/dromara/forest" target="_blank">
@@ -426,8 +481,14 @@ spring boot3 所依赖的 starter 不同，请注意坐标
 <br><br>
 
 
-## 🍹 友情链接
+## 友情链接
 <div class="row">
+<span class="link2">
+    <a href="https://bs.zhxu.cn/" target="_blank">
+        <img :src="$withBase('/img/link/bean-searcher-logo.png')" height="2em" class="no-zoom">
+    </a>
+</span>
+
 <span class="link">
     <a href="http://www.ipidea.net/?utm-source=Forest&utm-keyword=?Forest" target="_blank">
         <img :src="$withBase('/img/link/ipidea.png')" class="no-zoom">
@@ -465,7 +526,7 @@ spring boot3 所依赖的 starter 不同，请注意坐标
   }
   .link img {
     height:1.5em;
-    max-width:180px;
+    max-width:200px;
     margin: 14px;
   }
   .link .icon {
@@ -481,6 +542,31 @@ spring boot3 所依赖的 starter 不同，请注意坐标
     font-size: 0.75em;
     color: #457451;
   }
+
+
+  .link2 {
+    width: 8.4em;
+    text-align: left;
+  }
+  .link2 img {
+    height:2.6em;
+    max-width:200px;
+    margin: 14px;
+  }
+  .link2 .icon {
+    margin: 14px 5px 14px 14px;
+  }
+  .link2 a {
+    display: flex;
+    flex-direction: row;
+  }
+  .link2 a div {
+    line-height: 51px;
+    font-weight: bold;
+    font-size: 0.75em;
+    color: #457451;
+  }
+
   .page-wwads{
     width:100%!important;
     min-height: 0;
@@ -519,5 +605,64 @@ spring boot3 所依赖的 starter 不同，请注意坐标
     text-indent: 2em;
     margin: 5px 0rem 0rem 0rem;
   }
+
+
+
+
+.user_logo {
+}
+
+.user_logo td {
+    width: 500px;
+}
+
+.user_logo a {
+    cursor: pointer;
+}
+
+.logo_box0 {
+    height: 60px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.logo_box0 img {
+    height: 60px;
+}
+
+
+.logo_box1 {
+    height: 58px;
+    padding: 1px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.logo_box1 img {
+    height: 56px;
+}
+
+
+
+.logo_box {
+    height: 50px;
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.logo_box img {
+    height: 40px;
+}
+
 
 </style>

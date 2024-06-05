@@ -26,6 +26,7 @@ module.exports = [
             },
         ]
     },
+    { text: '案例', link: '/pages/cases/' },
     { text: '社区', items:[
             { text: '加入群聊', link: '/pages/group/'},
             { text: '赞助我们', link: '/pages/donate/'},
@@ -35,8 +36,6 @@ module.exports = [
     },
     { text: '关于', items:[
             { text: '项目介绍', link: '/pages/intro/' },
-            { text: '谁在使用', link: '/pages/users/' },
-            { text: '项目案例', link: '/pages/cases/' },
             { text: '开发团队', link: '/pages/team/'},
             { text: '关于作者', link: '/pages/author/'},
         ]
@@ -46,6 +45,7 @@ module.exports = [
             { text: 'Snowy - 国内首个国密前后端分离快速开发平台', link: 'https://xiaonuo.vip/' },
             { text: 'Eoapi - 一个开源、可拓展的 API 工具平台', link: 'https://www.eoapi.io/?utm_source=sponsor&utm_campaign=s-forest' },
             { text: 'Fast Request - IDEA版Postman,为简化API调试而生', link: 'https://dromara.gitee.io/fast-request' },
+            { text: 'Bean Searcher - 专注高级查询的只读 ORM', link: 'https://bs.zhxu.cn/' },
             { text: 'zyplayer-doc - 可私有化部署的文档与知识库管理平台', link: 'https://doc.zyplayer.com/#/integrate/zyplayer-doc?utm=forest' },
             { text: 'frSimple - 中后台脚手架/小程序商城', link: 'https://frsimple.cn/blogs/other/money.html' },
         ]

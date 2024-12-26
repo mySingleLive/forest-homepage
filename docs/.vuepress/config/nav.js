@@ -2,10 +2,11 @@ module.exports = [
     { text: '首页', link: '/' },
     { text: '文档', link: '/pages/1.5.36/install_guide/', items: [
             { text: '当前版本', items: [
-                    {text: 'v1.5.36', link: '/pages/1.5.36/install_guide/'}
+                    {text: 'v1.6.1', link: '/pages/1.6.1/install_guide/'}
                 ]
             },
             { text: '历史版本', items: [
+                    { text: 'v1.5.36', link: '/pages/1.5.36/install_guide/'},
                     { text: 'v1.5.35', link: '/pages/1.5.35/intro/' },
                     { text: 'v1.5.33', link: '/pages/1.5.33/intro/' },
                     { text: 'v1.5.30 ~ v1.5.32', link: '/pages/1.5.32/intro/' },
@@ -52,7 +53,8 @@ module.exports = [
     },
     { text: '源码', items: [
             { text: 'Gitee', link: 'https://gitee.com/dromara/forest' },
-            { text: 'Github', link: 'https://github.com/dromara/forest' }
+            { text: 'Github', link: 'https://github.com/dromara/forest' },
+            { text: 'GitCode', link: 'https://gitcode.com/dromara/forest' }
         ]
     }
 ];

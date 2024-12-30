@@ -209,14 +209,14 @@ postList: none
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-spring-boot-starter</artifactId>
-    <version>1.5.36</version>
+    <version>1.6.3</version>
 </dependency>
 
 <!-- Forest JAXB 扩展包 -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-jaxb</artifactId>
-    <version>1.5.36</version>
+    <version>1.6.3</version>
 </dependency>
 ```
 
@@ -228,14 +228,14 @@ postList: none
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-spring-boot3-starter</artifactId>
-    <version>1.5.36</version>
+    <version>1.6.3</version>
 </dependency>
 
 <!-- Forest Jakarta 扩展包 -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-jakarta-xml</artifactId>
-    <version>1.5.36</version>
+    <version>1.6.3</version>
 </dependency>
 ```
 
@@ -247,21 +247,28 @@ postList: none
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-core</artifactId>
-    <version>1.5.36</version>
+    <version>1.6.3</version>
 </dependency>
 
 <!-- Forest Spring 扩展包 -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-spring</artifactId>
-    <version>1.5.36</version>
+    <version>1.6.3</version>
 </dependency>
 
-<!-- Forest JAXB 扩展包 -->
+<!-- 若 Java 版本在 17 以下，就使用 forest-jaxb -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-jaxb</artifactId>
-    <version>1.5.36</version>
+    <version>1.6.3</version>
+</dependency>
+
+<!-- 若 Java 环境为 17 及以上版本，则使用 forest-jakarta-xml -->
+<dependency>
+    <groupId>com.dtflys.forest</groupId>
+    <artifactId>forest-jakarta-xml</artifactId>
+    <version>1.6.3</version>
 </dependency>
 ```
 </code-block>
@@ -273,16 +280,24 @@ postList: none
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-solon-plugin</artifactId>
-    <version>1.5.36</version>
+    <version>1.6.3</version>
 </dependency>
 
-<!-- Forest JAXB 扩展包 -->
+<!-- 若 Java 版本在 17 以下，就使用 forest-jaxb -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-jaxb</artifactId>
-    <version>1.5.36</version>
+    <version>1.6.3</version>
+</dependency>
+
+<!-- 若 Java 环境为 17 及以上版本，则使用 forest-jakarta-xml -->
+<dependency>
+    <groupId>com.dtflys.forest</groupId>
+    <artifactId>forest-jakarta-xml</artifactId>
+    <version>1.6.3</version>
 </dependency>
 ```
+
 </code-block>
 
 <code-block title="原生 Java 环境">
@@ -292,14 +307,21 @@ postList: none
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-core</artifactId>
-    <version>1.5.36</version>
+    <version>1.6.3</version>
 </dependency>
 
-<!-- Forest JAXB 扩展包 -->
+<!-- 若 Java 版本在 17 以下，就使用 forest-jaxb -->
 <dependency>
     <groupId>com.dtflys.forest</groupId>
     <artifactId>forest-jaxb</artifactId>
-    <version>1.5.36</version>
+    <version>1.6.3</version>
+</dependency>
+
+<!-- 若 Java 环境为 17 及以上版本，则使用 forest-jakarta-xml -->
+<dependency>
+    <groupId>com.dtflys.forest</groupId>
+    <artifactId>forest-jakarta-xml</artifactId>
+    <version>1.6.3</version>
 </dependency>
 ```
 </code-block>

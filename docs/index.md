@@ -154,13 +154,18 @@ postList: none
     <table class="user_logo">
         <tr>
             <td><a href="https://www.huawei.com/cn/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img height="50px" src="/img/users/logo_huawei.png" class="no-zoom" alt="华为"></div></a></td>
-            <td><a href="https://www.thebeastshop.com/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img height="50px" src="/img/users/logo_thebeastshop.jpg" class="no-zoom" alt="野兽派花店"></div></a></td>
-            <td><a href="https://zgh.com/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img height="50px" src="/img/users/logo_geely.png" class="no-zoom" alt="吉利集团"></div></a></td>
+            <td><a href="http://zy.zjcvmc.cn/" target="_blank"><div class="logo_box1" style="background-color: #ffffff"><img src="/img/users/logo_zgjj.png" class="no-zoom" alt="中国交建"></div></a></td>
+            <td><a href="https://zgh.com/" target="_blank"><div class="logo_box1" style="background-color: #ffffff"><img height="50px" src="/img/users/logo_geely.png" class="no-zoom" alt="吉利集团"></div></a></td>
         </tr>
         <tr>
             <td><a href="https://www.ictbda.com/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img src="/img/users/logo_ictbda.png" class="no-zoom" alt="中科院计算所大数据研究院"></div></a></td>
             <td><a href="https://www.woshipm.com/" target="_blank"><div class="logo_box1" style="background-color: #4470f5"><img src="/img/users/logo_woshipm.webp" class="no-zoom" alt="人人都是产品经理"></div></a></td>
             <td><a href="http://tldt.net/" target="_blank"><div class="logo_box" style="background-color: #1590d6;"><img src="/img/users/logo_tldt.png" class="no-zoom" alt="神州通立电梯"></div></a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.thebeastshop.com/" target="_blank"><div class="logo_box1" style="background-color: #ffffff"><img height="50px" src="/img/users/logo_thebeastshop.jpg" class="no-zoom" alt="野兽派花店"></div></a></td>
+            <td><a href="https://dms.yadea.com.cn/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img src="/img/users/logo_yadea.png" class="no-zoom" alt="雅迪"></div></a></td>
+            <td><a href="https://www.yintatech.cn/" target="_blank"><div class="logo_box" style="background-color: #ffffff;"><img src="/img/users/logo_yintatech.png" class="no-zoom" alt="赢他科技"></div></a></td>
         </tr>
         <tr>
             <td><a href="https://weidubim.com/" target="_blank"><div class="logo_box" style="background-color: #222222;"><img height="50px" src="/img/users/logo_weidubim.png" class="no-zoom" alt="万智维度"></div></a></td>

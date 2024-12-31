@@ -159,7 +159,7 @@ postList: none
         </tr>
         <tr>
             <td><a href="https://www.ictbda.com/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img src="/img/users/logo_ictbda.png" class="no-zoom" alt="中科院计算所大数据研究院"></div></a></td>
-            <td><a href="https://www.woshipm.com/" target="_blank"><div class="logo_box1" style="background-color: #4470f5"><img src="/img/users/logo_woshipm.webp" class="no-zoom" alt="人人都是产品经理"></div></a></td>
+            <td><a href="https://www.woshipm.com/" target="_blank"><div class="logo_box0" style="background-color: #4470f5"><img src="/img/users/logo_woshipm.webp" class="no-zoom" alt="人人都是产品经理"></div></a></td>
             <td><a href="http://tldt.net/" target="_blank"><div class="logo_box" style="background-color: #1590d6;"><img src="/img/users/logo_tldt.png" class="no-zoom" alt="神州通立电梯"></div></a></td>
         </tr>
         <tr>
@@ -174,7 +174,7 @@ postList: none
         </tr>
         <tr>
             <td><a href="https://www.huafang-aiot.com/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img src="/img/users/logo_huafangzhilian.png" class="no-zoom" alt="华方智联"></div></a></td>
-            <td><a href="https://www.hyperchain.cn/" target="_blank"><div class="logo_box" style="background-color: #ffffff"><img src="/img/users/logo_hyperchain.png" class="no-zoom" alt="趣链科技"></div></a></td>
+            <td><a href="https://www.hyperchain.cn/" target="_blank"><div class="logo_box1" style="background-color: #ffffff"><img src="/img/users/logo_hyperchain.png" class="no-zoom" alt="趣链科技"></div></a></td>
             <td><a href="https://www.byai.com/" target="_blank"><div class="logo_box" style="background-color: #2b58fa;"><img src="/img/users/logo_byai.png" class="no-zoom" alt="百应"></div></a></td>
         </tr>
         <tr>

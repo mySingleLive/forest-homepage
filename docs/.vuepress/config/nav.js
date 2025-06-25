@@ -1,6 +1,6 @@
 module.exports = [
     { text: '首页', link: '/' },
-    { text: '文档', link: '/pages/1.5.36/install_guide/', items: [
+    { text: '文档', link: '/pages/1.7.x/install_guide/', items: [
             { text: '当前版本', items: [
                     {text: 'v1.7.x', link: '/pages/1.7.x/install_guide/'}
                 ]
